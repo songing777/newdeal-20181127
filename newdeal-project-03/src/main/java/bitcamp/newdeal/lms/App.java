@@ -43,9 +43,9 @@ public class App {
 			totalHours[i] = Integer.parseInt(keyIn.nextLine());
 			System.out.print("일강의시간?");
 			dayHours[i] = Integer.parseInt(keyIn.nextLine());
-			
+
 			len++;
-			
+
 			System.out.print("계속하시겠습니까?(Y/n)");
 			String input = keyIn.nextLine();
 			if(input.equals("")||input.equalsIgnoreCase("y")) {
@@ -54,13 +54,13 @@ public class App {
 			break;
 
 		}
-		
+
 		keyIn.close();
 
 		for(int i=0;i<len;i++) {
 			System.out.printf("%d, %s, %s, %s ~ %s,%d,%d\n ", 
 					no[i],title[i],contents[i],startDate[i],endDate[i],totalHours[i],dayHours[i]);
-		
+
 		}
 
 

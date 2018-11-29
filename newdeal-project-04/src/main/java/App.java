@@ -6,7 +6,6 @@ public class App {
 	public static void main(String[] args) {
 
 		Scanner keyboard = new Scanner(System.in);
-
 		final int LENGTH = 10;
 		Lesson[] lessons = new Lesson[LENGTH];
 

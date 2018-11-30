@@ -31,3 +31,31 @@
 ## 09 : 클래스 변수와 클래스 메서드의 한게를 경험
 
 - github.com/eomcs/eomcs-java-project 에서 v2.1 과제 해결
+
+## 10 : 
+
+- github.com/eomcs/eomcs-java-project 에서 v2.2 과제 해결
+
+## 11 : 
+
+- github.com/eomcs/eomcs-java-project 에서 v2.2 과제 해결
+
+## 12 : 
+
+- github.com/eomcs/eomcs-java-project 에서 v2.2 과제 해결
+
+## 13 : 
+
+- github.com/eomcs/eomcs-java-project 에서 v2.2 과제 해결
+
+## 10 : 
+
+- github.com/eomcs/eomcs-java-project 에서 v2.2 과제 해결
+
+## 10 : 
+
+- github.com/eomcs/eomcs-java-project 에서 v2.2 과제 해결
+
+## 10 : 
+
+- github.com/eomcs/eomcs-java-project 에서 v2.2 과제 해결

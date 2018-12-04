@@ -29,10 +29,10 @@ public class BoardAddCommand implements Command {
 		String content = keyboard.nextLine(); 
 		
 		System.out.print("작성자번호? ");
-		board.setWriterNo(Integer.parseInt(keyboard.nextLine()));
+		String writeNo = keyboard.nextLine();
 		System.out.print("수업번호? ");
 		
-		board.setLessonNo(Integer.parseInt(keyboard.nextLine()));
+		String keyboard.nextLine();
 		System.out.print("번호? ");
 		int no = Integer.parseInt(keyboard.nextLine());
 		//MariaDB JDBC 드라이버 구현체를 로딩

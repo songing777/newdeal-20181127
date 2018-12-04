@@ -11,13 +11,6 @@ import com.eomcs.lms.domain.Board;
 
 public class BoardListCommand implements Command {
 
-	Scanner keyboard;
-	List<Board> list;
-
-	public BoardListCommand(Scanner keyboard) {
-		this.keyboard = keyboard;
-		this.list = list;
-	}
 
 	@Override
 	public void execute() {

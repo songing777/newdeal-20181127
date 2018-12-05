@@ -12,9 +12,11 @@
 		<result column="tel" property="tel" />
 		<result column="cdt" property="registeredDate" />
 	</resultMap>
-	<select id="findByEmailPassword" resultType="map">
-		select mno, name, email, photo
-		from member where email=#{email} and password=#{pwd}
+	<select id="findByEmailPassword" parameterType="map" resultMap="memberMap">
+		select 
+		  mno, name, email, photo
+		from member 
+		where email=#{email} and pwd=#{password}
 	</select>
 
 </mapper>

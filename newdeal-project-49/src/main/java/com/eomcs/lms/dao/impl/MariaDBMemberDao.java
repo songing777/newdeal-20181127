@@ -28,10 +28,10 @@ public class MariaDBMemberDao implements MemberDao {
 			params.put("email", email);
 			params.put("password", password);
 
-			return sqlSession.selectOne("BoardDao.findByNo",params);
+			return sqlSession.selectOne("MemberDao.findByEmailPassword",params);
 
 		}
-		}
-		
+	}
+
 
 }
